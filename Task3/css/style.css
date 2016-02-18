@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/bg.png);     
+}
+#logo{
+    margin-top: 34px;
+    margin-left: 47px;
+}
+
+/*menu*/
+.main{
+    width: 1067px;
+    height: 950px;
+    margin: 0 auto;
+    background: #ffffff; 
+    box-shadow: 3px 1px 5px -1px rgba(219,219,219,0.76);
+}
+.main2{
+    width: 1067px;
+    height: 950px;
+    box-shadow: -3px 1px 5px -1px rgba(219,219,219,0.76);
+}
+.menu{
+    height: 39px;
+    width: 965px;
+    margin-top: 42px;
+    margin-left: 47px;
+    margin-right: 47px;
+    background: linear-gradient( 90deg, #444343, #5e5e5e);
+}
+.menu a{
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.menu li{
+    width: 145px;
+    height: 39px;
+    display: inline-block;
+    text-align: center;
+     border-left: 1px solid white;
+     border-right: 1px solid transparent;
+}
+.menu li:nth-child(2){
+    width: 100px;
+}
+.menu li:hover{
+   border-left: 1px solid #838383;
+   border-right: 1px solid #838383;
+   background: linear-gradient( -180deg, #2e2e2e, #4a4a4a);
+}
+
+/*side bar*/
+.side-bar{
+    width: 239px;
+    height: 241px;
+    margin-left: 47px;
+    margin-top: 40px;
+    float: left;    
+}
+.side-bar li{
+    height: 40px;
+    display: block;
+    padding-left: 23px;
+    border: 1px solid #c8c8c8;
+    border-top: none;
+    list-style: none;
+}
+.side-bar li:first-child{
+    border-top: 1px solid #c8c8c8;
+}
+.side-bar a{ 
+    height: 30px;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #656363; 
+}
+.side-bar li:hover{
+    background-image: url(../img/hoverbg.png);
+    padding-left: 36px;
+}
+.side-bar a:hover{
+    color: #2c2c2c;
+}
+
+/*content*/
+#bike{    
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.box{
+    width: 677px;
+    height: 180px;
+    margin-top: 40px;
+    margin-left: 335px;
+}
+.box p{
+    padding-left: 25px;
+}
+
+/*Footer*/
+.footer{
+    width: 965px;
+    height: 41px;
+    margin-left: 46px; 
+    background: #e1e1e1;
+}
+.f-menu a{
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+.f-menu li{
+    display: inline-block;
+    width: 125px;
+    text-align: center;   
+}
+.footer p{
+    display: inline-block;
+    padding-right: 27px;
+    margin-top: -17px;
+    float: right;
+    color: #2c2c2c;
+}
+.f-menu a:hover{
+    text-decoration: underline;  
+}

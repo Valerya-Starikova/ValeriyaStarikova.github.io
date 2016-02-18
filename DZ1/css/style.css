@@ -1,0 +1,31 @@
+body {
+    background-color: #eeeeee;
+}
+.main{
+    width: 400px;                
+    margin: 0 auto;
+    margin-top: -4px;
+    margin-bottom: 40px;
+    padding: 30px;
+    background-color: white;    
+    box-shadow: 2px 2px 0px 0px rgba(227,223,227,1);
+}
+h2{
+    text-align: center;
+}
+ul{
+    padding: 0 0 0 55px;
+    line-height: 1.5;
+}
+p{
+    padding: 0 0 0 30px;
+    line-height: 1.5;
+}
+img{
+    width: 150px;
+    height: 160px;
+    margin-left: 125px;
+}
+hr{
+    width: 360px;
+}
