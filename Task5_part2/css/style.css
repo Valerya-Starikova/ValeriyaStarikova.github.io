@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+  // border-collapse: collapse;
+   border-spacing: 0;
+}td{
+   height: 70px;
+   width: 90px;
+   border: 5px solid black;
+}
+.invisible{
+    opacity: 0.0;
+    border: none;
+    outline: none;
+}
+.red{
+    background: #ff5f42;
+}
+.yellow{
+    background: #ffe853;
+}
+.blue{
+    background: #0d4c88;
+}
+.bleak{
+    background: #1a191a;
+}
