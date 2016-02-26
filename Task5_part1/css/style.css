@@ -55,7 +55,7 @@
     color: #60b5ed;
     text-align: center;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 7px;
     font-size: 14px;
 }
 .menu li a:first-child{
@@ -70,7 +70,7 @@
     padding-right: 10px;
 }
 .menu a:focus{
-    height: 24px;
+    height: 27px;
     background: #4eabda;
     color: #ffffff;
 }
@@ -78,7 +78,7 @@
     width: 190px;
     height: 34px;
     margin-left: 140px;
-    margin-top: -30px;
+    margin-top: -29px;
     background: linear-gradient(0deg,#2e7ac4,#50afdc);
 }
 .nav p{
