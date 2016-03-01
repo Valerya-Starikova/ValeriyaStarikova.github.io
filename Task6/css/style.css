@@ -338,7 +338,7 @@ h5{
    position: absolute;
    margin-left: 166px;
    margin-top: -114px;
-   border-left: 1px solid #b8b8b9;
+    
 }
 .disk article select{
     margin-left: 17px;
@@ -346,7 +346,9 @@ h5{
     margin-bottom: -2px;
 }
 .disk form fieldset{
+    width: 170px;
     margin-top: -12px;
+    border-left: 1px solid #b8b8b9;
 }
 .color-l{
     font-size: 8px; 
