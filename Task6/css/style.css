@@ -128,13 +128,13 @@ nav li{
     box-shadow: 3px 2px 5px 0px rgba(134, 134, 134, 1);
 }
 .menu ul{
-    margin-left: 148px;
+    margin-left: 141px;
 }
 .menu li{  
     display: inline-block;
     height: 26px;
     width: 93px;
-    margin-top: 7px;
+    margin-top: 5px;
     color: white;
     list-style: none;
     text-align: center;
@@ -152,6 +152,14 @@ nav li{
    border-radius: 40px;
    background: linear-gradient( 0deg, #0c3357, #1f6787);
 }
+.wi{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.wi:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .menu p{
     font-family: Arial,sans-serif;
     font-size: 11px;
@@ -164,8 +172,10 @@ span{
 }
 
 
-
-
+.select div{
+   display: inline-block;
+   margin-right: 8px;
+}
 select{
     font-family: Arial,sans-serif;
     font-size: 11px;
@@ -207,8 +217,10 @@ select{
     display: inline-block;
     width: 71px;
     margin-left: 17px;
+    margin-top: -2px;
     font-family: Arial,sans-serif;
     font-size: 11px;  
+    
 }
 h5{
     font-family: Arial,sans-serif;
@@ -216,7 +228,7 @@ h5{
     color: #154467;
 }
 .disks{
-    margin-top: -10px;
+    margin-top: -13px;
     margin-left: 17px;
     font-family: Arial,sans-serif;
     font-size: 11px;
@@ -224,7 +236,7 @@ h5{
     color: #154467;    
 }
 .shs{
-    margin-top: -10px;
+    margin-top: -13px;
     margin-right: 22px;
     font-family: Arial,sans-serif;
     font-size: 11px;
@@ -233,12 +245,26 @@ h5{
 }
 .avto select{
     width: 102px;
-    height: 15px; 
+    height: 17px;
+    margin-left: 2px;
+    
 }
 .color{
     color: #77858b;
 }
-
+.right{
+    margin-left: 202px;
+    margin-top: -103px;  
+}
+.select fieldset{
+    border: none;
+     margin-top: -2px;
+     width: 200px;
+}
+#year{
+    width: 50px;
+    margin-top: -3px;
+}
 
 
 
@@ -250,12 +276,9 @@ h5{
     border-radius: 15px;
     border: 1px solid #b8b8b9;    
 }
-.sh select{
-    margin-top: 5px;
-}
 .check{
-    margin-top: -5px;
-    margin-left: 4px;
+    margin-top: -10px;
+    margin-left: 59px;
 }
 .sh h5{
     text-align: left;
@@ -263,24 +286,24 @@ h5{
 }
 .sh form{
     width: 109px;
-    margin-top: -108px;
-    margin-left: 62px;
     font-family: Arial,sans-serif;
     font-size: 11px; 
 }
-
 .sh p{
-    //display: block;
-    margin-left: 17px;
-    padding-top: 5px;
+    margin-left: -4px;
+    padding-top: 6px;
     width: 55px;
-    height: 100px;
+    text-align: right;
     font-family: Arial,sans-serif;
     font-size: 11px;
-    line-height: 2;
+    line-height: 1;
   }
-  .sh input[type="submit"]{
-      margin-right: 0px;
+.sh input[type="submit"]{
+      margin-right: -59px;
+      margin-top: 0px;
+  }
+.size{
+      width: 48px;
   }
   
   
@@ -289,12 +312,11 @@ h5{
 .disk{
     width: 267px;
     height: 132px;
+    position: relative;
     background: white;
-    margin-top: -12px;
     box-shadow: 2px 2px 2px 0px rgba(187, 187, 187, 1);
     border-radius: 15px;
     border: 1px solid #b8b8b9;
-    position: relative;
 }
 .disk p{
     display: inline-block;
@@ -303,38 +325,28 @@ h5{
     padding-top: 5px;
     font-family: Arial,sans-serif;
     font-size: 11px;  
-   
+    line-height: 1;
 }
 .disk select{
     display: inline-block;
-    margin-left: 52px;
-    margin-top: -17px;
-    position: absolute;
+    margin-left: 1px;
+    margin-top: -17px;   
     
 }
-.align{
-    width: 20px;
-    height: 100px;
-    float: right;
-    margin-top: -100px;
-    border-right: 1px solid #bdc6ca;
-   
+.disk article{
+   width: 100px;
+   position: absolute;
+   margin-left: 166px;
+   margin-top: -114px;
+   border-left: 1px solid #b8b8b9;
 }
-.align:after {
-content: "";
-display:block;
-clear:both;
+.disk article select{
+    margin-left: 17px;
+    margin-top: 2px;
+    margin-bottom: -2px;
 }
-.align select{
-   margin-left: 37px;
-   margin-top: -11px;
-}
-.align p{
-    display: inline-block;
-    width: 54px;
-    font-size: 9px;
-    margin-top: -10px;
-    margin-left: 37px;
+.disk form fieldset{
+    margin-top: -7px;
 }
 .color-l{
     font-size: 8px; 
@@ -346,20 +358,17 @@ clear:both;
 }
 .disk form{
     width: 109px;
-    margin-top: -92px;
-    margin-left: 62px;
+    margin-top: 4px;
+    margin-left: -2px;
     font-family: Arial,sans-serif;
     font-size: 11px; 
    
 }
 .disk input[type="submit"]{
     position: absolute;
-    margin-left: 132px;
+    margin-left: 197px;
 }
-.select div{
-    display: inline-block;
-   margin-right: 8px;
-}
+
 
 
 
@@ -562,6 +571,7 @@ main ul{
 main h3{
     font-family: Arial,sans-serif;
     font-size: 16px;
+    font-style: italic;
     color: #114165;
     
 }

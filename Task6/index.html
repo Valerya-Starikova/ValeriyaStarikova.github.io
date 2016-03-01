@@ -35,7 +35,7 @@
                 <img src="img/head.png" alt="head">
                 <div class="menu">
                     <ul>
-                        <li><a href="#">О&nbsp;КОМПАНИИ</a></li>
+                        <li class="wi"><a href="#">О&nbsp;КОМПАНИИ</a></li>
                         <li><a href="#">ОПЛАТА</a></li>
                         <li><a href="#">ДОСТАВКА</a></li>
                         <li><a href="#">СТАТЬИ</a></li>
@@ -50,120 +50,138 @@
                         <h5>Поиск по автомобилю</h5>
                         <span class="disks"><b>Диски:</b></span>
                         <span class="shs"><b>Шины:</b></span>
-                    <form action="">                        
-                        <p>Марка <span class="color">авто:</span></p>
-                        <select name="avto">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select>
-                          <p>Марка <span class="color">авто:</span></p>
-                        <select name="avto">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select>
-                          <br>
-                          <p>Модель <span class="color">автомобиля:</span></p>
-                        <select name="marka">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select>
-                          <p>Модель <span class="color">автомобиля:</span></p>
-                        <select name="marka">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select><br>
-                         <p>Год выпуска <span class="color">автомобиля:</span></p>
-                         <select name="year" class="year">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select>
-                          <p>Год выпуска <span class="color">автомобиля:</span></p>
-                        <select name="year" class="year">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select><br>
-                        <p>Комплектация:</p>
-                        <select name="complekt">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select>
-                          <p>Комплектация:</p>
-                        <select name="complekt">
-                            <option value="2000"></option>
-                            <option value="2001"></option>
-                        </select><br>
-                        
+                    <form action="">
+                        <fieldset>
+                            <p>Марка&nbsp;<span class="color">авто:</span></p>
+                            <select name="marka">
+                                <option value="2000"></option>
+                                <option value="2001"></option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <p>Модель <span class="color">автомобиля:</span></p>
+                            <select name="model">
+                                <option value="2000"></option>
+                                <option value="2001"></option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <p>Год выпуска <span class="color">автомобиля:</span></p>
+                            <select id="year" name="year">
+                                <option value="2000"></option>
+                                <option value="2001"></option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <p><br>Комплектация:</p>
+                            <select name="comlplect">
+                                <option value="2000"></option>
+                                <option value="2001"></option>
+                            </select>
+                        </fieldset>
+                        <article class="right">
+                            <fieldset>
+                                <p>Марка&nbsp;<span class="color">авто:</span></p>
+                                <select name="marka">
+                                    <option value="2000"></option>
+                                    <option value="2001"></option>
+                                </select>
+                            </fieldset>                        
+                            <fieldset>
+                                <p>Модель <span class="color">автомобиля:</span></p>
+                                <select name="model">
+                                    <option value="2000"></option>
+                                    <option value="2001"></option>
+                                </select>
+                            </fieldset>
+                            <fieldset>
+                                <p>Год выпуска <span class="color">автомобиля:</span></p>
+                                <select id="year-r" name="year">
+                                    <option value="2000"></option>
+                                    <option value="2001"></option>
+                                </select>
+                            </fieldset>
+                            <fieldset>
+                                <p><br>Комплектация:</p>
+                                <select name="comlplect">
+                                    <option value="2000"></option>
+                                    <option value="2001"></option>
+                                </select>
+                            </fieldset>
+                        </article>                          
                         <input type="submit" value="Поиск...">
                     </form>
                 </div>
                 <div class="sh">
-                    <h5>поиск шин:</h5> 
-                    <p>Размер:<br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R<br>
-                            Сезон:<br>
-                         </p>
+                    <h5>поиск шин:</h5>                     
                     <form action="">
-                        
-                        <select name="size">
-                            <option value="145">145</option>
-                            <option value="200">200</option>
+                        <fieldset>
+                            <p>Размер:</p>
+                            <select name="size" class="size">
+                                <option value="145">145</option>
+                                <option value="200">200</option>
+                        </select>&nbsp;&nbsp;/&nbsp;<select name="size" class="size">
+                                <option value="145"></option>
+                                <option value="200"></option>
                         </select>
-                          /
-                        <select name="size">
-                            <option value="145">145</option>
-                            <option value="200">200</option>
-                        </select><br>
-                         
-                        <select name="radius">
-                            <option value="12">12</option>
-                            <option value="14">14</option>
-                        </select> <br><br>
-                        <div class="check"> 
-                        <input type="checkbox" name="a" id="s" value="лето">лето<br>
-                        <input type="checkbox" name="a" value="зима" checked>зима<br>
-                        <input type="checkbox" name="a" value="всесез" checked>всесез<br>
-                        </div>
+                        </fieldset>
+                        <fieldset>
+                             <p>R</p>                            
+                            <select name="radius">
+                                <option value="12">12</option>
+                                <option value="14">14</option>
+                            </select> 
+                        </fieldset>
+                        <fieldset>
+                            <p>Сезон:</p>
+                            <article class="check">
+                                <input type="checkbox" name="a" value="лето">лето<br>
+                                <input type="checkbox" name="a" value="зима">зима<br>
+                                <input type="checkbox" name="a" value="всесез">всесез<br>
+                            </article>
+                        </fieldset>
                         <input type="submit" value="Поиск...">
                     </form>
                 </div>
-                <div class="disk">
-                    
-                    <h5>поиск дисков</h5>
-                    <p>Диаметр <span class="color">диска:</span></p><br>
-                     <p>Количество <span class="color">крепежных отверстий:</span></p><br>
-                     <p>Диаметр <span class="color">расположения крепежных отверстий:</span></p><br>
+                <div class="disk">                    
+                    <h5>поиск дисков</h5>                    
                      <form>
-                    <select name="diam" >
-                            <option value="14">14</option>
-                            <option value="15">15</option>
-                    </select><br> <br>     
-                        <select name="count">
-                            <option value="3">3</option>
-                            <option value="5">5</option>
-                        </select><br><br>
-                    <select name="count">
-                            <option value="3">3</option>
-                            <option value="5">5</option>
-                    </select><br><br>
-                    <select name="count-diam">
-                            <option value="12">12</option>
-                            <option value="15">15</option>
-                    </select>
-                    <div class="align"><p>ДЦО<span class="color-l"><br>(диаметр центрального отверстия):</span></p><br><br>
-                    <select name="count-diam">
-                            <option value="12">123</option>
-                            <option value="15">15</option>
-                    </select><br>
-                        <p>ЕТ<span class="color-l"><br>(вылет диска):</span></p><br> <br>   
-                    <select name="count-diam">
-                            <option value="12">122</option>
-                            <option value="15">15</option>
-                    </select>
-                    </div>
+                        <fieldset>
+                            <p>Диаметр <span class="color">диска:</span></p>
+                            <select name="diam">
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <p>Количество <span class="color">крепежных отверстий:</span></p>
+                            <select name="count" >
+                                <option value="3">3</option>
+                                <option value="5">5</option>
+                            </select>
+                        </fieldset>
+                        <fieldset>
+                            <p>Диаметр <span class="color">расположения крепежных отверстий:</span></p>
+                            <select name="count-diam" >
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select>
+                        </fieldset>
+                         <article>
+                            <p>ДЦО<span class="color-l"><br>(диаметр центрального отверстия):</span></p><br>
+                            <select name="count-diam">
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select><br>
+                            <p>ЕТ<span class="color-l"><br>(вылет диска):</span></p>   
+                            <select name="count-diam">
+                                <option value="12">12</option>
+                                <option value="15">15</option>
+                            </select>
+                         </article>
                      <input type="submit" value="Поиск...">
                     </form>
-                </div>
-                
+                </div>  
             </div>
             <aside id="left-side">
                 <div><p><img src="img/catalog.png" alt="catalog"></p><h6>КАТАЛОГ ПРОДУКЦИИ:</h6></div>
@@ -213,55 +231,55 @@
                         <h4>Goodyear</h4>
                         <p>Ultra Grip Extreme</p><br>
                         <img src="img/goodyear.png" alt="goodyear"><br>
-                        <h3>90.00грн</h3>
+                        <h3>90.00грн.</h3>
                     </li>
                     <li>
                         <h4>Nokian</h4>
                         <p>Hakkapeliitta R</p><br>
                         <img src="img/nokian.png" alt="goodyear"><br>
-                        <h3>115.00грн</h3>
+                        <h3>115.00грн.</h3>
                     </li>
                     <li>
                         <h4>Hankook</h4>
                         <p>K 708 155/65 R14</p><br>
                         <img src="img/hankook.png" alt="goodyear"><br>
-                        <h3>393.00грн</h3>
+                        <h3>393.00грн.</h3>
                     </li>
                     <li>
                         <h4>Goodyear</h4>
                         <p>Ultra Grip Extreme</p><br>
                         <img src="img/goodyear.png" alt="goodyear"><br>
-                        <h3>90.00грн</h3>
+                        <h3>90.00грн.</h3>
                     </li>
                     <li>
                         <h4>Nokian</h4>
                         <p>Hakkapeliitta R</p><br>
                         <img src="img/nokian.png" alt="goodyear"><br>
-                        <h3>115.00грн</h3>
+                        <h3>115.00грн.</h3>
                     </li>
                     <li>
                         <h4>Hankook</h4>
                         <p>K 708 155/65 R14</p><br>
                         <img src="img/hankook.png" alt="goodyear"><br>
-                        <h3>393.00грн</h3>
+                        <h3>393.00грн.</h3>
                     </li>
                     <li>
                         <h4>Goodyear</h4>
                         <p>Ultra Grip Extreme</p><br>
                         <img src="img/goodyear.png" alt="goodyear"><br>
-                        <h3>90.00грн</h3>
+                        <h3>90.00грн.</h3>
                     </li>
                     <li>
                         <h4>Nokian</h4>
                         <p>Hakkapeliitta R</p><br>
                         <img src="img/nokian.png" alt="goodyear"><br>
-                        <h3>115.00грн</h3>
+                        <h3>115.00грн.</h3>
                     </li>
                     <li>
                         <h4>Hankook</h4>
                         <p>K 708 155/65 R14</p><br>
                         <img src="img/hankook.png" alt="goodyear"><br>
-                        <h3>393.00грн</h3>
+                        <h3>393.00грн.</h3>
                     </li>
                 </ul>
             </main>
