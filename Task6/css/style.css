@@ -348,7 +348,7 @@ h5{
 .disk form fieldset{
     width: 170px;
     margin-top: -12px;
-    border-left: 1px solid #b8b8b9;
+    border-right: 1px solid #b8b8b9;
 }
 .color-l{
     font-size: 8px; 
