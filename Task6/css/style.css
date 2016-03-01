@@ -298,7 +298,7 @@ h5{
     font-size: 11px;
     line-height: 1;
   }
-.sh form fieldset{
+.sh fieldset{
     margin-top: -1px;
 }
 .sh input[type="submit"]{
