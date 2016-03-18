@@ -167,6 +167,11 @@ header{
     margin-left: 60px;
     bottom: 21px;
 }
+.slide--image--bt{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -264px;
+}
 #header--slaider{
     width: 67%;
     height: 100%;
@@ -961,6 +966,11 @@ footer{
         font-size: 15px;
         line-height: 7px;
     }
+    .slide--image--bt{
+        width: 81%;
+        margin-left: 127%;
+        margin-top: -191px;
+    }
     #header--slaiders-active{
         right: 31%;
         bottom: -17px;
@@ -981,7 +991,7 @@ footer{
     }
     .info-menu{
         height: 599px;
-        margin-top: -64%;
+        margin-top: -61%;
     }
     .info-menu--content{
         width: 100%;
