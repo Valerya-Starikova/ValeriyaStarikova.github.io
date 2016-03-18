@@ -3,108 +3,181 @@
     <head>
         <title>Task 7-8</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width">
+       <link href="css/style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div class="wrapper">
         <header>
-            <img class="header--logo" src="img/logo.png" alt="logo"> 
-            <ul class="menu">
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">HOME</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">ABOUT</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">BLOG</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">PRODUCTS</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">LOREM IPSUM</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">DOLOR SIT AMET</span></a></li>
-            </ul>
-            <nav class="menu-box">
-            <ul class="menu menu--Res480">
-                <li class="menu--item current"><a class="menu--link" href="#"><span class="menu--text">HOME</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">ABOUT</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">BLOG</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">PRODUCTS</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">LOREM IPSUM</span></a></li>
-                <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">DOLOR SIT AMET</span></a></li>
-            </ul>
-            </nav>
-            <div class="slaider"></div>
+            
+                <img class="header--logo" src="img/logo.png" alt="logo"> 
+                <div class="header-box">
+                    <ul class="menu">
+                        <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">HOME</span></a></li>
+                        <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">ABOUT</span></a></li>
+                        <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">BLOG</span></a></li>
+                        <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">PRODUCTS</span></a></li>
+                        <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">LOREM IPSUM</span></a></li>
+                        <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">DOLOR SIT AMET</span></a></li>
+                    </ul>
+                </div>
+                <nav class="menu-box">
+                <ul class="menu menu--Res480">
+                    <li class="menu--item current"><a class="menu--link" href="#"><span class="menu--text">HOME</span></a></li>
+                    <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">ABOUT</span></a></li>
+                    <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">BLOG</span></a></li>
+                    <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">PRODUCTS</span></a></li>
+                    <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">LOREM IPSUM</span></a></li>
+                    <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">DOLOR SIT AMET</span></a></li>
+                </ul>
+                </nav>
+            
+                <div class="slaider">
+                    <div id="header--slaider">
+                        <input type=radio name=slaider id="slide1">
+                        <input checked type=radio name=slaider id="slide2">
+                        <input type=radio name=slaider id="slide3">
+                        <input type=radio name=slaider id="slide4">
+                        <div id="header--slaides">
+                            <div id="header--slaides-overflow">
+                                <div class="header--slaides-content">
+                                <article>Слайд1</article>
+                                <article>
+                                    <div class="header--aticle">
+                                        <div class="header--slide--text">                    
+                                            <h3 class="slide--text--h">Lorem Ipsum Dolor</h3>
+                                            <p class="slide--text">IT WILL MAKE ALL OF YOUR DREAMS COME TRUE</p>
+                                            <p class="slide--text--aticle">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget
+                                             aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+                                        </div>
+                                        <div class="header--slide--image">
+                                            <img src="img/iphone.png" alt="phone" class="slide--image" >
+                                        </div>
+                                    </div>   
+                                   
+                                 </article>
+                                 <article>Слайд3</article>
+                                 <article>Слайд4</article>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="header--slaiders-active">
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                            <label for=slide3></label>
+                            <label for=slide4></label>
+                        </div> 
+                        <div id="header--slaiders-control">
+                            <label for=slide1></label>
+                            <label for=slide2></label>
+                            <label for=slide3></label>
+                            <label for=slide4></label>
+                        </div> 
+                    </div>
+                </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
         </header>
         <div class="main">
             <div class="info-menu">
-                <ul class="info-menu--box">
-                    <li class="imfo-menu--aticle">
-                        <h3 class="imfo-menu--h">ABOUT OUR COMPANY</h3>
-                        <p class="imfo-menu--text">
-                            Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam 
-                        </p>
-                        <a href="#" class="imfo-menu--link">READ MORE</a>
-                    </li>
-                    <li class="imfo-menu--aticle">
-                        <h3 class="imfo-menu--h">ABOUT OUR COMPANY</h3>
-                        <p class="imfo-menu--text">
-                            Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam 
-                        </p>
-                        <a href="#" class="imfo-menu--link">READ MORE</a>
-                    </li>
-                    <li class="imfo-menu--aticle">
-                        <h3 class="imfo-menu--h">ABOUT OUR COMPANY</h3>
-                        <p class="imfo-menu--text">
-                            Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam 
-                        </p>
-                        <a href="#" class="imfo-menu--link">READ MORE</a>
-                    </li>
-                </ul>
-                <ul class="info-menu--box info-menu--RES">
-                    <li class="imfo-menu--aticle">
-                        <h3 class="imfo-menu--h">ABOUT OUR COMPANY</h3>
-                        <p class="imfo-menu--text">
-                            Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus
-                        </p>
-                        <a href="#" class="imfo-menu--link">READ MORE</a>
-                    </li>
-                    <li class="imfo-menu--aticle">
-                        <h3 class="imfo-menu--h">ABOUT OUR COMPANY</h3>
-                        <p class="imfo-menu--text">
-                            Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus
-                        </p>
-                        <a href="#" class="imfo-menu--link">READ MORE</a>
-                    </li>
-                    <li class="imfo-menu--aticle">
-                        <h3 class="imfo-menu--h">ABOUT OUR COMPANY</h3>
-                        <p class="imfo-menu--text">
-                            Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus 
-                        </p>
-                        <a href="#" class="imfo-menu--link">READ MORE</a>
-                    </li>
-                </ul>                
+                <div class="info-menu--box">
+                    <div class="info-menu--content">
+                        <div class="info-menu--content--box">                       
+                            <div class="info-menu--aticle">
+                                <div class="info-menu--marker first"></div>
+                                <h3 class="info-menu--h">ABOUT OUR COMPANY</h3>
+                                <p class="info-menu--text">
+                                    Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam 
+                                </p>
+                                <a href="#" class="info-menu--link">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-menu--content">
+                        <div class="info-menu--content--box">                            
+                            <div class="info-menu--aticle">
+                                <div class="info-menu--marker second"></div>
+                                <h3 class="info-menu--h">ABOUT OUR COMPANY</h3>
+                                <p class="info-menu--text">
+                                    Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam 
+                                </p>
+                                <a href="#" class="info-menu--link">READ MORE</a>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="info-menu--content">
+                        <div class="info-menu--content--box">
+                            <div class="info-menu--aticle">
+                                <div class="info-menu--marker three"></div>
+                                <h3 class="info-menu--h">ABOUT OUR COMPANY</h3>
+                                <p class="info-menu--text">
+                                    Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam 
+                                </p>
+                                <a href="#" class="info-menu--link">READ MORE</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>                       
             </div>
             <div class="content">
-                <div class="content--aticle">
-                   <img src="img/photo.png" alt="photo" class="content--photo">
-                    <h3 class="content--h">PINGBULLER <span class="text-color">STARTS HERE</span></h3> 
-                   <p class="content--text">&ldquo;Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.&Prime;</p>
-               
-                </div>
-                
+                <div class="content--box">
+                <article class="content-message">
+                    <div id="content-message--slaider">
+                        <input type=radio name=mini-slaider id=slaid1>
+                        <input checked type=radio name=mini-slaider id=slaid2>
+                        <input type=radio name=mini-slaider id=slaid3>
+                        <input type=radio name=mini-slaider id=slaid4>
+                        <div id="slaides">
+                            <div id=slaides-overflow>
+                                <div class=slaides-content>
+                                <article>Слайд1</article>
+                                <article>
+                                    <div class="content--aticle">
+                                        <div class="content--aticle--box">
+                                          <img src="img/photo.png" alt="photo" class="content--photo">
+                                          <h3 class="content--h">PINGBULLER <span class="text-color">STARTS HERE</span></h3> 
+                                          <p class="content--text">&ldquo;Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.&Prime;</p>
+                                        </div>
+                                    </div>                              
+                                 </article>
+                                 <article>Слайд3</article>
+                                 <article>Слайд4</article>
+                                </div>
+                            </div>
+                        </div>
+                        <div id=slaiders-active>
+                            <label for=slaid1></label>
+                            <label for=slaid2></label>
+                            <label for=slaid3></label>
+                            <label for=slaid4></label>
+                        </div>                        
+                    </div>
+                </article>
+                                
                 <div class="content--updetes">
-                   <h3 class="content--updetes--h">RECENT UPDATES</h3> 
-                    <ul class="content--updetes--list"> 
-                        <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012 in Recent News</p></li>
-                        <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012 in Recent News</p></li>
-                        <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012 in Recent News</p></li>
-                    </ul>
+                    <div class="content--updetes--box">
+                        <h3 class="content--updetes--h">RECENT UPDATES</h3> 
+                         <ul class="content--updetes--list"> 
+                             <li class="content--updetes--marker marker1"></li>
+                             <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012 in Recent News</p></li>
+                             <li class="content--updetes--marker marker2"></li>
+                             <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012 in Recent News</p></li>
+                             <li class="content--updetes--marker marker3"></li>
+                             <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012 in Recent News</p></li>
+                         </ul>
+                    </div>
                     <a href="#" class="content--updetes--link">READ MORE HERE</a>
                 </div>
-                <div class="content--updetes content--RES768">
-                   <h3 class="content--updetes--h">RECENT UPDATES</h3> 
-                    <ul class="content--updetes--list"> 
-                        <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012</p></li>
-                        <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012</p></li>
-                        <li class="content--updetes--item"><p class="content--updetes--content--text"><span class="content--updetes--text--style">Nunc turpis neque feugiat eget</span><br>Posted by Admin on March 132012</p></li>
-                    </ul>
-                    <a href="#" class="content--updetes--link">MORE BLOG POSTS</a>
-                </div>
+                    </div> 
+            </div>
                 <div class="content--logos">
                     <img src="img/logos.png" alt="logos" class="content--img">
                     <img src="img/logosRes.png" alt="logos" class="content--img-RES">
@@ -116,18 +189,23 @@
             <div class="footer-info">
                 <div class="footer-info--content">
                     <div class="footer-info--aticle1">
-                        <img src="img/logo-footer.png" alt="logo" class="footer--logo">
-                        <h4>Copyright 2013, Pingbull AS</h4>
-                        <p class="footer-info--text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisqu</p>
+                        <div class="footer-info--aticle--content">
+                            <img src="img/logo-footer.png" alt="logo" class="footer--logo">
+                            <h4>Copyright 2013, Pingbull AS</h4>
+                            <p class="footer-info--text1">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisqu</p>
+                        </div>
                     </div>
                     <div class="footer-info--aticle">
-                        <h2 class="footer-info--h">RECENT COMMENTS</h2> 
-                        <p class="footer-info--text aticle--text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
-
+                        <div class="footer-info--aticle--content">
+                            <h2 class="footer-info--h">RECENT COMMENTS</h2> 
+                            <p class="footer-info--text aticle--text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                        </div>
                     </div>
                     <div class="footer-info--aticle">
-                        <h2 class="footer-info--h">NEWS CATEGORIES</h2> 
-                        <p class="footer-info--text aticle--text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                        <div class="footer-info--aticle--content">
+                            <h2 class="footer-info--h">NEWS CATEGORIES</h2> 
+                            <p class="footer-info--text aticle--text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar. Quisque urna risus, mattis pulvinar bibendum in, venenatis quis</p>
+                        </div>
                     </div>
                     <div class="footer-info--aticle resolution768">
                         <h2 class="footer-info--h">NEWS CATEGORIES</h2> 
@@ -143,8 +221,8 @@
                     </div>
                 </div>   
             </div>
-        </div>
         <footer>
+            
             <ul class="menu footer--menu">
                 <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">HOME</span></a></li>
                 <li class="menu--item"><a class="menu--link" href="#"><span class="menu--text">ABOUT</span></a></li>
