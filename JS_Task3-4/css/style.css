@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.select__Form__H{
+    margin-left: 17%;
+    padding-top: 21px;   
+}
+.select__Form{
+    margin-left: 115px;
+}
+.select__Form__Content{
+    font-size: 19px;
+}
+.question__content{
+    margin-bottom: -31px;
+    margin-left: 10px;
+}
+.question{
+    margin-top: 42px;
+}
+.question__content__answer{
+    list-style: none;   
+}
+.question__content__title{
+    margin-bottom: 12px; 
+}
+
+.answer__Checkbox{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+
+.form__button{
+    width: 327px;
+    height: 55px;
+    margin-left: 138px;
+    margin-top: 81px;
+    cursor: pointer;
+    font-size: 19px;
+    background-color: #DCF5EF;
+    border: 2px solid black;
+}
