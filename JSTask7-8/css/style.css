@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: -550px;
+    border-radius: 0 0 20px 20px;
+    background: bisque;
+    cursor: pointer;
+}
+.scrol{
+    margin-top: 0px;
+    transition: 4s;
+}
+.tabs{
+    display:inline-block;
+    margin-top: 10px;
+    z-index: 5;
+}
+.tabs-list__item{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: -10px;
+    margin-top: 20px;
+    background: #e3cced;
+    border-radius: 10px 10px 0 0;
+}
+.tabs-list__item a{
+   text-decoration: none;
+   color: white;
+   font-size: 18px;
+   padding: 10px;
+}
+.active{
+    background: white;
+    padding-top: 10px;
+}
+.active a{
+   color: #bbb;
+}
+input{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    height: 30px;
+}
+.tab-item{
+    display: none;
+    margin-top: 0px;
+    padding: 15px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    width: 730px;
+    background: white;
+    text-indent: 20px
+}
+.form{
+  width: 300px;
+  margin: 40px auto;
+}
+.form fieldset{
+    position: relative;
+    text-align: center;
+    border: none;
+}
+.form input {
+  display: block;
+  border: 2px solid #cfcfcf;
+  font-size: 14px;
+  color: #444444;
+  padding: 7px 7px 8px;
+  width: 250px;
+  margin-bottom: -4px;
+  transition: all 0.5s;
+}
+.form em{
+    width: 233px;
+    height: 39px;
+    position: absolute;
+    top: 0px;
+    left: 265px;
+    padding-top: 14px;
+    text-align: center;    
+    font-style: normal; 
+    color: #e3cced;
+    z-index: 2;
+    display: none;
+}
+.form #btn-submit {
+  border: none;
+  width: 180px;
+  margin-left: 46px;
+  text-align: center;
+  background: #bab6b6;
+  font-size: 13px;
+  font-weight: bold;
+  color: #ffffff;
+  cursor: pointer;
+  height: 35px;
+  line-height: 28px;
+  padding: 0;
+}
