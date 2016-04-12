@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JS 7-8</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="css/jcarousel.basic.css" rel="stylesheet" type="text/css"/>
+  <link href="css/checkbox.style.css" rel="stylesheet" type="text/css"/>
+  <link href="css/selectric.css" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/jquery.jcarousel.min.js"></script>
+<script src="js/jcarousel.basic.js"></script>
+<script src="js/jquery.checkbox.js"></script>
+<script src="js/jquery.selectric.min.js"></script>
+<script src="js/script.js"></script>  
+</head>
+<body>
+<main class="wrapper">
+    
+ <div class="menu">
+  <nav class="menu2">
+    <ul class="content clearfix">
+        <li><a href="#">Nav 1</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li class="dropdown">
+            <a href="#">Nav 3</a>
+            <ul class="sub-menu">
+                <li><a href="#">Nav 3.1</a></li>
+                <li><a href="#">Nav 3.2</a></li>
+                <li><a href="#">Nav 3.3</a></li>
+                <li class="dropdown">
+                    <a href="#">Nav 3.4</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Nav 3.4.1</a></li>
+                        <li class="dropdown">
+                            <a href="#">Nav 3.4.2</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Nav 3.4.2.1</a></li>
+                                <li><a href="#">Nav 3.4.2.2</a></li>
+                                <li><a href="#">Nav 3.4.2.3</a></li>
+                                <li><a href="#">Nav 3.4.2.4</a></li>
+                                <li><a href="#">Nav 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav 3.4.3</a></li>
+                        <li><a href="#">Nav 3.4.4</a></li>
+                        <li><a href="#">Nav 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nav 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nav 4</a></li>
+        <li><a href="#">Nav 5</a></li>
+    </ul>
+      <img src="img/search.png" alt="" class="btn-search">
+  </nav>
+    <div class="selection-menu-wrapper">
+    <form action="" class="selection-menu">
+      <div class="select-wrapper">
+        <select class="selectric">
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+        </select>
+      </div>
+      <div class="checkBox-Js">
+          <div>
+            <span class="niceCheck"><input type="checkbox" name="ch11" id="check1" /></span><label for="check1">Item1</label>
+          </div>
+          <div>
+            <span class="niceCheck"><input type="checkbox" name="ch23" id="check2" /></span><label for="check2">Item2</label>
+          </div>
+          <div>
+            <span class="niceCheck"><input type="checkbox" name="ch34" id="check3" /></span><label for="check3">Item3</label>
+          </div>
+      </div>
+      <div class="checkBox-Css">
+          <div>
+            <input id="ch1" type="checkbox" name="ch1" />
+            <label for="ch1"><span></span>Item1</label>
+          </div>
+          <div>
+            <input id="ch2" type="checkbox" name="ch2" />
+            <label for="ch2"><span></span>Item2</label>
+          </div>
+          <div>
+            <input id="ch3" type="checkbox" name="ch3" />
+            <label for="ch3"><span></span>Item3</label>
+          </div>
+      </div>
+        <input type="submit" value="" id="btn" />
+    </form>    
+  </div>
+</div>
+     <div class="jcarousel-wrapper">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="img/img1.jpg" alt=""></li>
+                <li><img src="img/img2.jpg" alt=""></li>
+                <li><img src="img/img3.jpg" alt=""></li>
+            </ul>
+        </div>     
+        <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+        <a href="#" class="jcarousel-control-next">&rsaquo;</a>          
+        <p class="jcarousel-pagination"></p>
+  </div>
+  <div class="content-wrapper">
+      <h2>Javascript Menu</h2>
+   <div class="wrapper__content_bottomMenu">
+    <ul class="content_bottomMenu clearfix">
+        <li><a href="#">Nav 1</a></li>
+        <li><a href="#">Nav 2</a></li>
+        <li class="dropdown__bottomMenu">
+            <a href="#">Nav 3</a>
+            <ul class="sub-menu__bottomMenu">
+                <li><a href="#">Nav 3.1</a></li>
+                <li><a href="#">Nav 3.2</a></li>
+                <li><a href="#">Nav 3.3</a></li>
+                <li class="dropdown__bottomMenu" id="first-level">
+                    <a href="#">Nav 3.4</a>
+                    <ul class="sub-menu__bottomMenu" id="sub-first-level">
+                        <li><a href="#">Nav 3.4.1</a></li>
+                        <li class="dropdown__bottomMenu" id="second-level">
+                            <a href="#">Nav 3.4.2</a>
+                            <ul class="sub-menu__bottomMenu" id="sub-second-level">
+                                <li><a href="#">Nav 3.4.2.1</a></li>
+                                <li><a href="#">Nav 3.4.2.2</a></li>
+                                <li><a href="#">Nav 3.4.2.3</a></li>
+                                <li><a href="#">Nav 3.4.2.4</a></li>
+                                <li><a href="#">Nav 3.4.2.5</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav 3.4.3</a></li>
+                        <li><a href="#">Nav 3.4.4</a></li>
+                        <li><a href="#">Nav 3.4.5</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Nav 3.5</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Nav 4</a></li>
+        <li><a href="#">Nav 5</a></li>
+    </ul>
+  </div>
+      <div class="content-wrapper__text-box">
+      <p class="content-wrapper__text">
+            Lorem ipsum dolor sit amet, ei his nemore scaevola, quo id tota veri recteque. Qui detraxit praesent in, his no vidit vivendo oporteat. Semper viderer noluisse ei est. Possit dolorum cum ea, iusto graeco scripserit ad his. Et quo tantas torquatos, mea aliquid sententiae intellegebat an. Dolorem atomorum ei usu. In delectus consequat assentior eos, in qui novum harum.
+            Id sumo cetero reprehendunt ius, soleat eligendi qualisque mea ne. In mucius admodum pro, at alii petentium vix, vis no laoreet omnesque. Assum euripidis assueverit usu an, his temporibus scriptorem eu. Id his augue detracto platonem. Quo suas populo ne.
+            Munere quodsi imperdiet nam eu. Ut putant prompta splendide sea. Eam duis iudico euripidis ea. Cu sonet eruditi mandamus his.
+            Rebum antiopam duo no. Ex per erant civibus salutatus, lobortis reprehendunt te mei, duo melius verear fastidii in. Graeci scriptorem his ad. No putent corpora sit, vix affert probatus facilisis cu. Tota novum vidisse no ius.
+            Atqui periculis dissentias pri in. Ne eum minim timeam sensibus, sea modo integre no. Nam mutat novum iudicabit ea. An elit aliquam vel. Timeam delicata nec cu, duo an scaevola constituto expetendis. Laudem verterem tincidunt at ius, nulla partem persecuti ei nam. Et reque blandit nam, ut quando ridens pro.</p>
+       <p class="content-wrapper__text">
+            Lorem ipsum dolor sit amet, ei his nemore scaevola, quo id tota veri recteque. Qui detraxit praesent in, his no vidit vivendo oporteat. Semper viderer noluisse ei est. Possit dolorum cum ea, iusto graeco scripserit ad his. Et quo tantas torquatos, mea aliquid sententiae intellegebat an. Dolorem atomorum ei usu. In delectus consequat assentior eos, in qui novum harum.
+            Id sumo cetero reprehendunt ius, soleat eligendi qualisque mea ne. In mucius admodum pro, at alii petentium vix, vis no laoreet omnesque. Assum euripidis assueverit usu an, his temporibus scriptorem eu. Id his augue detracto platonem. Quo suas populo ne.
+            Munere quodsi imperdiet nam eu. Ut putant prompta splendide sea. Eam duis iudico euripidis ea. Cu sonet eruditi mandamus his.
+            Rebum antiopam duo no. Ex per erant civibus salutatus, lobortis reprehendunt te mei, duo melius verear fastidii in. Graeci scriptorem his ad. No putent corpora sit, vix affert probatus facilisis cu. Tota novum vidisse no ius.
+            Atqui periculis dissentias pri in. Ne eum minim timeam sensibus, sea modo integre no. Nam mutat novum iudicabit ea. An elit aliquam vel. Timeam delicata nec cu, duo an scaevola constituto expetendis. Laudem verterem tincidunt at ius, nulla partem persecuti ei nam. Et reque blandit nam, ut quando ridens pro.</p>
+      </div>
+ </div>       
+</main> 
+
+</body>
+
+</html>

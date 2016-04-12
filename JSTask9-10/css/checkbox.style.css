@@ -1,0 +1,13 @@
+.niceCheck {
+width: 17px;
+height: 17px;
+display: inline-block;
+margin-right: 5px;
+vertical-align: bottom;
+cursor: pointer;
+background: url(../img/checkbox-sprite.png);
+}
+.niceCheck input {
+display: none;
+}
+		
