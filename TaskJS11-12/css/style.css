@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: bisque;
+}
+.wrapper__navigation{
+    width: 405px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#carousel, #templ{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+.carousel-hider {
+    width: 945px;
+    overflow: hidden;
+    float: left;
+} 
+.carousel-list {    
+    list-style: none;
+    width: 10000px;
+    padding: 0px;
+    position: relative;
+} 
+.carousel-element {
+    display: block;
+    margin-right: 25px;
+    float: left;
+} 
+.carousel-element img {
+    max-width: 200px;
+    border: 6px solid white;
+} 
+.carousel-arrow-left, .carousel-arrow-right {
+    float: left;
+}
+.carousel-arrow-left, .carousel-arrow-right {
+    width: 20px;
+    float: left;
+    display: block;
+    border-radius: 100px;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 66px;
+    text-align: center;
+} 
+.carousel-arrow-left:hover, .carousel-arrow-right:hover {
+    cursor: pointer;
+    background-color: grey;
+} 
+.carousel-arrow-left {
+    margin-right: 20px;
+} 
+.carousel-arrow-right {
+    margin-left: 20px;
+}
+.wrapper-carousel{
+    width: 1050px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: none;
+}
+.wrapper__template{
+   width: 400px; 
+   margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background: white;
+   border: solid 2px gray;
+   border-radius: 20px;
+   display: none;
+}
+.select__form__H{
+    margin-left: 17%;
+    padding-top: 21px;   
+}
+.select__form{
+    width: 190px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.select__form__content{
+    font-size: 19px;
+}
+.question__content{
+    margin-bottom: -31px;
+    margin-left: 10px;
+}
+.question{
+    margin-top: 42px;
+}
+.question__content__answer{
+    list-style: none;   
+}
+.question__content__title{
+    margin-bottom: 12px; 
+}
+.answer__checkbox{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+.form__button{
+    width: 180px;
+    height: 37px;
+    margin-left: 10px;
+    margin-top: 81px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: #DCF5EF;
+    border: 2px solid black;
+}
