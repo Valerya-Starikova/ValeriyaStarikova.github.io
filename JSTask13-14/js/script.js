@@ -51,11 +51,11 @@ $(function() {
             {  
                 console.log('use answer',$useAns);
                 console.log('correct answer',$otv[x]);
-                    //if( $useAns[zx] == $otv[x] )
+                    if( $useAns[zx] == $otv[x] )
                        //if($useAns.indexOf($otv) > -1)
                       // if($useAns.includes($otv[x]))
                        // if(find($useAns,$otv))
-                if($.inArray($otv[x],$useAns))
+                      //if($.inArray($otv[x],$useAns))
                 {
                     $a_r++;
                     console.log('in the if correct',$a_r++);
