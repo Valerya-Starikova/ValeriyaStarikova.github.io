@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>JS 11-12</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="js/template.js"></script>
+
+</head>
+<body>
+<main class="wrapper">
+    <div class="wrapper__template">
+    <script type="text/html" id="blank">
+                <div class="select__form__box">
+                    <h3 class="select__form__H"></h3>
+                    <form class="select__form" action="">
+                        <ol class="select__form__content">
+                        <% var id = 1;
+                        for(var i = 0; i < data.length; i++ ) { %>
+                            <li class="question" id="bloc<%= [i] %>">
+                                <ul class="question__content">
+                                    <h4 class="question__content__title"><%= data[i].question %></h4>
+                             <% for(var k = 0; k < 3; k++ ) { %>
+                                    <li class="question__content__answer">
+                                    <input type="checkbox" id="check<%= [id] %>" value="<%= [k] %>" class="answer__checkbox">
+                                    <label class="answer__text" for="check<%= [id] %>"><%= data[i].answer[k] %></label>
+                                    </li>
+                            <% id++; } 
+                            id++; %>                            
+                                </ul>    
+                                
+                            </li>
+                         <% } %>
+                        </ol>
+                       <button type="button" class="form__button">Проверить мои результаты</button>
+                    </form>
+                    
+                </div>
+    </script>
+   </div>
+    <div class="modal_form"> 
+      <span class="modal_close">X</span>
+      <p class="modal_form__text"></p>
+      <button type="button" class="modal__button">Повторить попытку?</button>
+    </div>
+    <div class="overlay"></div>
+</main> 
+<script src="js/script.js"></script>  
+</body>
+
+</html>
