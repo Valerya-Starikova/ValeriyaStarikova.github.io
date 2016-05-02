@@ -23,7 +23,7 @@
                                     <h4 class="question__content__title"><%= data[i].question %></h4>
                              <% for(var k = 0; k < 3; k++ ) { %>
                                     <li class="question__content__answer">
-                                    <input type="checkbox" id="check<%= [id] %>" value="<%= [k] %>" class="answer__checkbox">
+                                    <input type="checkbox" id="check<%= [id] %>" name="ans<%= [i] %>" value="<%= [k] %>" class="answer__checkbox" >
                                     <label class="answer__text" for="check<%= [id] %>"><%= data[i].answer[k] %></label>
                                     </li>
                             <% id++; } 
