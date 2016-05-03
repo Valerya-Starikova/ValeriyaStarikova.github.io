@@ -1,4 +1,5 @@
 "use strict";
+//реализация с помощью шаблонизатора
 //var searchResults = [];    
 //$(function(){        
 //    $('.form_search').submit(function(){ 
