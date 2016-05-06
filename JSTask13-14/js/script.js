@@ -1,11 +1,11 @@
 "use strict";
 $(function() {
-    var tmplj = $('#blank').html();
-    var data = [ 
+
+    var data = [
     {
         question: 'Зачем используется ключевое слово var?',
         answer: ['Для вывода результатов программы на экран', 'Для вывода сообщения в отдельном окне',' Для создания новой переменной' ],
-        rightAnswer: [ 2 ]    
+        rightAnswer: [ 2 ]
     },
     {
         question: 'Чем отличаются циклы while от do while?',
@@ -18,35 +18,42 @@ $(function() {
         rightAnswer: [ 1, 2 ]
     }
     ];
- 
+
     localStorage.setItem('test',JSON.stringify(data));
+
+});
+
+
+
+$(function() {
+  
+    var tmplj = $('#blank').html();
+
+    var test = localStorage.getItem('test');
+        test = JSON.parse(test);
+
     var cont = tmpl(tmplj, {
         data: test
     });
     $('.wrapper__template').append(cont);
-});
 
-var test = localStorage.getItem('test');
-    test = JSON.parse(test);
-    
-$(function() { 
-    $(".form__button").click(function(e) {              
+    $(".form__button").click(function(e) {
     var $useAns =[];
     var $a_r = 0;
-    var $e = 0; 
+    var $e = 0;
     e.preventDefault();
     $(".modal_form__text").empty();
-    
+
    for( var a = 0; a < 3; a++ )
-    {       
+    {
       $useAns[a] = $("#bloc"+a+" input:checkbox:checked").serializeArray();
     }
     $useAns.forEach(function (item, i) {
-       
+
         item.forEach(function (item_arr, a) {
-       
-            if (item_arr.value == test[i].rightAnswer[a]) 
-            { 
+
+            if (item_arr.value == test[i].rightAnswer[a])
+            {
                $a_r++;
             }
             else{
@@ -62,11 +69,11 @@ $(function() {
     }
     else{
        show("Error: " + $e, $useAns);
-    }         
+    }
   });
  });
 
-$(function() {     
+$(function() {
 function initBlock(block_ans, count_ans) {
     var $block_ans = $(block_ans);
     $( block_ans + ' :checkbox').on('click', function() {
@@ -79,23 +86,23 @@ function initBlock(block_ans, count_ans) {
 initBlock("#bloc0",1);
 initBlock("#bloc2",2);
 
-});        
+});
 
-function show(res,arr) { 
-    $('.overlay').fadeIn(400,function(){ 
+function show(res,arr) {
+    $('.overlay').fadeIn(400,function(){
         $('.modal_form').css('display', 'block').animate({opacity: 1, top: '50%'}, 200);
         $('.modal_form .modal_form__text').append(res);
-    });	
-    $('.modal_close, .overlay, .modal__button').click( function(){ 
-        $('.modal_form').animate({opacity: 0, top: '45%'}, 100,function(){ 
-            $(this).css('display', 'none'); 
-            $('.overlay').fadeOut(400); 
-        });	
     });
-    $(".modal__button").click(function() { 
-        $(':input').removeAttr('checked'); 
-        return res = null; 
+    $('.modal_close, .overlay, .modal__button').click( function(){
+        $('.modal_form').animate({opacity: 0, top: '45%'}, 100,function(){
+            $(this).css('display', 'none');
+            $('.overlay').fadeOut(400);
+        });
+    });
+    $(".modal__button").click(function() {
+        $(':input').removeAttr('checked');
+        return res = null;
         return arr.length=0;
     });
-    
+
 }
