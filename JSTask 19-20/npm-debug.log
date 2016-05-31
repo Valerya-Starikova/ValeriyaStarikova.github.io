@@ -1,0 +1,244 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'grunt-loadnpmtasks',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of C:\Users\Lera\Desktop\JSTask 19-20\package.json
+5 warn package.json p@1.0.0 No description
+6 warn package.json p@1.0.0 No repository field.
+7 warn package.json p@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\g\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-cli\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-contrib-concat\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-contrib-sass\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-contrib-uglify\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-sass\package.json
+15 verbose installManyTop reading scoped package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\load-grunt-tasks\package.json
+16 info package.json g@2.0.1 license should be a valid SPDX license expression
+17 verbose readDependencies loading dependencies from C:\Users\Lera\Desktop\JSTask 19-20\package.json
+18 silly cache add args [ 'grunt-loadnpmtasks', null ]
+19 verbose cache add spec grunt-loadnpmtasks
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'grunt-loadnpmtasks',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'grunt-loadnpmtasks',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: 'latest',
+20 silly cache add   type: 'tag' }
+21 silly addNamed grunt-loadnpmtasks@latest
+22 verbose addNamed "latest" is being treated as a dist-tag for grunt-loadnpmtasks
+23 info addNameTag [ 'grunt-loadnpmtasks', 'latest' ]
+24 silly mapToRegistry name grunt-loadnpmtasks
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'grunt-loadnpmtasks',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   name: 'grunt-loadnpmtasks',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/grunt-loadnpmtasks
+29 verbose addNameTag registry:https://registry.npmjs.org/grunt-loadnpmtasks not in flight; fetching
+30 verbose request uri https://registry.npmjs.org/grunt-loadnpmtasks
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 08:29:54
+33 verbose request id 282c03ccf0485239
+34 http request GET https://registry.npmjs.org/grunt-loadnpmtasks
+35 http 200 https://registry.npmjs.org/grunt-loadnpmtasks
+36 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 verbose headers   etag: '"6MRG8VQ5P4GLHDHQ7ILYD1EOP"',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'content-encoding': 'gzip',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   'content-length': '2004',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   date: 'Thu, 19 May 2016 05:30:41 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   age: '0',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-fra1237-FRA',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1463635841.156901,VS0,VE188',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 silly get cb [ 200,
+37 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+37 silly get     etag: '"6MRG8VQ5P4GLHDHQ7ILYD1EOP"',
+37 silly get     'content-type': 'application/json',
+37 silly get     'content-encoding': 'gzip',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     'content-length': '2004',
+37 silly get     'accept-ranges': 'bytes',
+37 silly get     date: 'Thu, 19 May 2016 05:30:41 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     age: '0',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-fra1237-FRA',
+37 silly get     'x-cache': 'MISS',
+37 silly get     'x-cache-hits': '0',
+37 silly get     'x-timer': 'S1463635841.156901,VS0,VE188',
+37 silly get     vary: 'Accept-Encoding' } ]
+38 verbose get saving grunt-loadnpmtasks to C:\Users\Lera\AppData\Roaming\npm-cache\registry.npmjs.org\grunt-loadnpmtasks\.cache.json
+39 verbose correctMkdir C:\Users\Lera\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+40 silly addNameTag next cb for grunt-loadnpmtasks with tag latest
+41 silly addNamed grunt-loadnpmtasks@0.3.3
+42 verbose addNamed "0.3.3" is a plain semver version for grunt-loadnpmtasks
+43 silly mapToRegistry name grunt-loadnpmtasks
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'grunt-loadnpmtasks',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   name: 'grunt-loadnpmtasks',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/grunt-loadnpmtasks
+48 verbose addRemoteTarball https://registry.npmjs.org/grunt-loadnpmtasks/-/grunt-loadnpmtasks-0.3.3.tgz not in flight; adding
+49 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-loadnpmtasks/-/grunt-loadnpmtasks-0.3.3.tgz',
+49 verbose addRemoteTarball   '6718882bf411be8fc743aa6d522aaea09b71f43c' ]
+50 info retry fetch attempt 1 at 08:29:55
+51 info attempt registry request try #1 at 08:29:55
+52 http fetch GET https://registry.npmjs.org/grunt-loadnpmtasks/-/grunt-loadnpmtasks-0.3.3.tgz
+53 http fetch 200 https://registry.npmjs.org/grunt-loadnpmtasks/-/grunt-loadnpmtasks-0.3.3.tgz
+54 silly fetchAndShaCheck shasum 6718882bf411be8fc743aa6d522aaea09b71f43c
+55 verbose addTmpTarball C:\Users\Lera\AppData\Local\Temp\npm-5876-34e36251\registry.npmjs.org\grunt-loadnpmtasks\-\grunt-loadnpmtasks-0.3.3.tgz not in flight; adding
+56 verbose addTmpTarball already have metadata; skipping unpack for grunt-loadnpmtasks@0.3.3
+57 verbose correctMkdir C:\Users\Lera\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 silly cache afterAdd grunt-loadnpmtasks@0.3.3
+59 verbose afterAdd C:\Users\Lera\AppData\Roaming\npm-cache\grunt-loadnpmtasks\0.3.3\package\package.json not in flight; writing
+60 verbose correctMkdir C:\Users\Lera\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+61 verbose afterAdd C:\Users\Lera\AppData\Roaming\npm-cache\grunt-loadnpmtasks\0.3.3\package\package.json written
+62 silly install resolved [ { name: 'grunt-loadnpmtasks',
+62 silly install resolved     description: 'A Node module (not a Grunt task itself) to help in loading NPM-based tasks without requiring a "package.json" file next to every Gruntfile. To be used as an alternative to `grunt.loadNpmTasks`/`grunt.task.loadNpmTasks` within large, hierarchical codebases',
+62 silly install resolved     version: '0.3.3',
+62 silly install resolved     homepage: 'https://github.com/JamesMGreene/grunt-loadNpmTasks',
+62 silly install resolved     author:
+62 silly install resolved      { name: 'James M. Greene',
+62 silly install resolved        email: 'james.m.greene@gmail.com',
+62 silly install resolved        url: 'http://greene.io/' },
+62 silly install resolved     repository:
+62 silly install resolved      { type: 'git',
+62 silly install resolved        url: 'git://github.com/JamesMGreene/grunt-loadNpmTasks.git' },
+62 silly install resolved     bugs: { url: 'https://github.com/JamesMGreene/grunt-loadNpmTasks/issues' },
+62 silly install resolved     licenses: [ [Object] ],
+62 silly install resolved     main: 'lib/grunt-loadNpmTasks',
+62 silly install resolved     engines: { node: '>= 0.8.0' },
+62 silly install resolved     scripts: { test: 'grunt travis --verbose' },
+62 silly install resolved     peerDependencies: { grunt: '0.4.x' },
+62 silly install resolved     dependencies: {},
+62 silly install resolved     devDependencies:
+62 silly install resolved      { grunt: '~0.4.1',
+62 silly install resolved        'grunt-contrib-jshint': '~0.7.1',
+62 silly install resolved        'grunt-contrib-nodeunit': '~0.2.2',
+62 silly install resolved        'grunt-contrib-watch': '~0.2.0',
+62 silly install resolved        nodeunit: '~0.8.1' },
+62 silly install resolved     keywords: [ 'gruntplugin', 'load', 'task', 'tasks', 'loadNpmTasks' ],
+62 silly install resolved     gitHead: '23ab9abf7ce12ac10a8eb50b802bf95d032c8c0c',
+62 silly install resolved     _id: 'grunt-loadnpmtasks@0.3.3',
+62 silly install resolved     _shasum: '6718882bf411be8fc743aa6d522aaea09b71f43c',
+62 silly install resolved     _from: 'grunt-loadnpmtasks@latest',
+62 silly install resolved     _npmVersion: '3.3.4',
+62 silly install resolved     _nodeVersion: '0.10.40',
+62 silly install resolved     _npmUser: { name: 'jamesmgreene', email: 'james.m.greene@gmail.com' },
+62 silly install resolved     maintainers: [ [Object] ],
+62 silly install resolved     dist:
+62 silly install resolved      { shasum: '6718882bf411be8fc743aa6d522aaea09b71f43c',
+62 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-loadnpmtasks/-/grunt-loadnpmtasks-0.3.3.tgz' },
+62 silly install resolved     directories: {},
+62 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-loadnpmtasks/-/grunt-loadnpmtasks-0.3.3.tgz' } ]
+63 info install grunt-loadnpmtasks@0.3.3 into C:\Users\Lera\Desktop\JSTask 19-20
+64 info installOne grunt-loadnpmtasks@0.3.3
+65 verbose installOne of grunt-loadnpmtasks to C:\Users\Lera\Desktop\JSTask 19-20 not in flight; installing
+66 verbose correctMkdir C:\Users\Lera\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+67 verbose lock using C:\Users\Lera\AppData\Roaming\npm-cache\_locks\grunt-loadnpmtasks-fbcd16bf4e67ba82.lock for C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+68 silly install write writing grunt-loadnpmtasks 0.3.3 to C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+69 verbose unbuild node_modules\grunt-loadnpmtasks
+70 silly gentlyRm C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks is being purged from base C:\Users\Lera\Desktop\JSTask 19-20
+71 verbose gentlyRm don't care about contents; nuking C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+72 verbose tar unpack C:\Users\Lera\AppData\Roaming\npm-cache\grunt-loadnpmtasks\0.3.3\package.tgz
+73 verbose tar unpacking to C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+74 silly gentlyRm C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks is being purged
+75 verbose gentlyRm don't care about contents; nuking C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+76 silly gunzTarPerm modes [ '777', '666' ]
+77 silly gunzTarPerm extractEntry package.json
+78 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+79 silly gunzTarPerm extractEntry .npmignore
+80 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+81 silly gunzTarPerm extractEntry README.md
+82 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+83 silly gunzTarPerm extractEntry Gruntfile.js
+84 silly gunzTarPerm modified mode [ 'Gruntfile.js', 420, 438 ]
+85 silly gunzTarPerm extractEntry LICENSE-MIT
+86 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 420, 438 ]
+87 silly gunzTarPerm extractEntry .jshintrc
+88 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+89 silly gunzTarPerm extractEntry .travis.yml
+90 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+91 silly gunzTarPerm extractEntry lib/grunt-loadNpmTasks.js
+92 silly gunzTarPerm modified mode [ 'lib/grunt-loadNpmTasks.js', 420, 438 ]
+93 silly gunzTarPerm extractEntry test/grunt-loadNpmTasks_test.js
+94 silly gunzTarPerm modified mode [ 'test/grunt-loadNpmTasks_test.js', 420, 438 ]
+95 verbose write writing to C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks\package.json
+96 info preinstall grunt-loadnpmtasks@0.3.3
+97 verbose readDependencies loading dependencies from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks\package.json
+98 silly prepareForInstallMany adding grunt@0.4.x from grunt-loadnpmtasks peerDependencies
+99 warn peerDependencies The peer dependency grunt@0.4.x included from grunt-loadnpmtasks will no
+100 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+101 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+102 verbose readDependencies loading dependencies from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks\package.json
+103 silly install resolved []
+104 verbose about to build C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+105 info build C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+106 info linkStuff grunt-loadnpmtasks@0.3.3
+107 silly linkStuff grunt-loadnpmtasks@0.3.3 has C:\Users\Lera\Desktop\JSTask 19-20\node_modules as its parent node_modules
+108 verbose linkBins grunt-loadnpmtasks@0.3.3
+109 verbose linkMans grunt-loadnpmtasks@0.3.3
+110 verbose rebuildBundles grunt-loadnpmtasks@0.3.3
+111 info install grunt-loadnpmtasks@0.3.3
+112 info postinstall grunt-loadnpmtasks@0.3.3
+113 verbose readDependencies loading dependencies from C:\Users\Lera\Desktop\JSTask 19-20\package.json
+114 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\g\package.json
+115 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt\package.json
+116 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-cli\package.json
+117 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-contrib-concat\package.json
+118 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-contrib-sass\package.json
+119 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-contrib-uglify\package.json
+120 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks\package.json
+121 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-sass\package.json
+122 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\load-grunt-tasks\package.json
+123 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\.bin\grunt\package.json
+124 verbose targetResolver reading package data from C:\Users\Lera\Desktop\JSTask 19-20\node_modules\.bin\grunt.cmd\package.json
+125 verbose already installed skipping grunt@0.4.x C:\Users\Lera\Desktop\JSTask 19-20
+126 silly install resolved []
+127 verbose unlock done using C:\Users\Lera\AppData\Roaming\npm-cache\_locks\grunt-loadnpmtasks-fbcd16bf4e67ba82.lock for C:\Users\Lera\Desktop\JSTask 19-20\node_modules\grunt-loadnpmtasks
+128 verbose validateInstall loading C:\Users\Lera\Desktop\JSTask 19-20\package.json for validation
+129 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+129 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+129 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+129 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+129 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+130 verbose cwd C:\Users\Lera\Desktop\JSTask 19-20
+131 error Windows_NT 6.1.7601
+132 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "grunt-loadnpmtasks" "--save-dev"
+133 error node v4.4.3
+134 error npm  v2.15.1
+135 error code EPEERINVALID
+136 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+136 error peerinvalid Peer grunt-loadnpmtasks@0.3.3 wants grunt@0.4.x
+136 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+136 error peerinvalid Peer grunt-contrib-sass@1.0.0 wants grunt@>=0.4.0
+136 error peerinvalid Peer load-grunt-tasks@3.5.0 wants grunt@>=0.4.0
+136 error peerinvalid Peer grunt-sass@1.2.0 wants grunt@>=0.4.0
+137 verbose exit [ 1, true ]
